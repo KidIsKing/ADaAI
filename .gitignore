@@ -1,0 +1,14 @@
+# All files
+.env
+
+# HW1_RAG
+HW1_RAG/venv/
+
+# HW2_06_PromptEng
+HW2_06_PromptEng/venv/
+
+# HW3_skLearn_RandomForest
+HW3_skLearn_RandomForest/venv/
+
+# HW4_08_Голосовой_бот_Colab
+HW4_08_Голосовой_бот_Colab/venv/
