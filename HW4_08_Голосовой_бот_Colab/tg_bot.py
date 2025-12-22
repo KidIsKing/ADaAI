@@ -16,9 +16,9 @@ from langchain_gigachat.chat_models import GigaChat
 from langchain_core.messages import HumanMessage
 
 # Токены
-AUTH_SPEECH = "MDE5YjQxYTMtNTQ0NS03MjNkLTgyOTEtY2EwZTBlNzM5M2VjOjg2NDVjNzcwLWE2ZTItNDJkNy1hY2MyLTdmYWI0ZmY5MmZhNQ=="
-AUTH_GIGA = "MDE5YWNiMjYtYzQ4YS03Njc3LWE0MTMtZTM1OTQxZjdjMDFlOjA1NTUyZTk4LTVlZmMtNDY4Ni04ZTFkLWU1MDYwMmEwOWQ1Ng=="
-TELEGRAM_TOKEN = "8585747582:AAF4JnswBHlkCvDBRj7QYGSzMfSZX7Df9to"
+AUTH_SPEECH = ""
+AUTH_GIGA = ""
+TELEGRAM_TOKEN = ""
 
 
 # Получение токена SaluteSpeech
