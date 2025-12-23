@@ -17,6 +17,7 @@ import scipy.io
 from langchain_gigachat.chat_models import GigaChat
 from langchain_core.messages import HumanMessage
 
+
 # Токены
 load_dotenv()
 AUTH_SPEECH = os.getenv("AUTH_SPEECH")
@@ -49,7 +50,7 @@ def init_gigachat():
 
 # Распознавание речи - ОТПРАВКА OGG НАПРЯМУЮ
 def speech_to_text(audio_bytes, token, content_type="audio/ogg;codecs=opus"):
-    """Распознавание речи через SaluteSpeech API"""
+    """Распознавание речи через SaluteSpeech API."""
     url = "https://smartspeech.sber.ru/rest/v1/speech:recognize"
 
     headers = {"Authorization": f"Bearer {token}", "Content-Type": content_type}
